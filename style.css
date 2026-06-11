@@ -281,6 +281,10 @@ a:hover {
     padding: 2rem;
 }
 
+.info__details + .info__details {
+    margin-top: 2rem;
+}
+
 .info__details-title {
     margin: 0 0 1rem;
     font-size: 1.125rem;
@@ -462,17 +466,9 @@ a:hover {
 }
 
 .route-map {
-    aspect-ratio: 16 / 10;
+    width: 100%;
     margin-bottom: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(145deg, #e8e6e1, #d4d2cb);
-    border: 1px dashed var(--color-border);
     border-radius: var(--radius);
-    color: var(--color-text-muted);
-    font-weight: 600;
-    font-size: 0.9375rem;
 }
 
 .btn {
