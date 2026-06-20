@@ -411,6 +411,10 @@ a:hover {
     padding: 0 0.25rem;
 }
 
+.partners__card--logo-only .partners__card-logo {
+    height: 4rem;
+}
+
 .partners__logo {
     display: flex;
     align-items: center;
