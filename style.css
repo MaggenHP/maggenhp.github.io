@@ -300,6 +300,11 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
+.info__list .btn {
+    margin-left: 0.35rem;
+    vertical-align: middle;
+}
+
 .info__list li:last-child {
     margin-bottom: 0;
 }
