@@ -415,6 +415,11 @@ a:hover {
     height: 4rem;
 }
 
+.partners__card-logo--invert {
+    filter: invert(1);
+    height: 7.5rem;
+}
+
 .partners__logo {
     display: flex;
     align-items: center;
