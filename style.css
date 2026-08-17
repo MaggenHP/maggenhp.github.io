@@ -488,6 +488,11 @@ a:hover {
     color: var(--color-text-muted);
 }
 
+.prize-section {
+    margin-top: 2rem;
+    scroll-margin-top: calc(var(--nav-height) + 1rem);
+}
+
 .route-map {
     width: 100%;
     margin-bottom: 2rem;
